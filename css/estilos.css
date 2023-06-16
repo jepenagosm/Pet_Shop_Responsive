@@ -64,7 +64,7 @@
 /*Estilos para el Main*/
 
 .silde {
-  background-image: url("/img/Plato_principal1.png");
+  background-image: url("../img/Plato_principal1.png");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -621,7 +621,7 @@
 
   .silde {
     height: 450px;
-    background-image: url("/img/Plato_principal_celular.png");
+    background-image: url("../img/Plato_principal_celular.png");
     background-position: right;
   }
 
