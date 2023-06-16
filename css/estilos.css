@@ -1,0 +1,833 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*Estilos para el Header*/
+
+.header-container-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  color: #f3f3f3;
+  font-weight: 400;
+  padding: 8px 120px;
+
+}
+
+.header-lista {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.header-container-bottom {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 70px;
+  align-items: center;
+}
+
+.logo-base {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 23.44px;
+  color: #ffffff;
+
+}
+
+.logo-base img {
+  width: 20px;
+}
+
+.logo-first {
+  color: #3c2313;
+}
+
+.nav-links {
+  list-style: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  display: flex;
+  gap: 25px;
+
+}
+
+/*Estilos para el Main*/
+
+.silde {
+  background-image: url(/img/Plato_principal1.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+
+}
+
+.texto_fondo {
+  position: relative;
+  font-weight: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 27%;
+  border-radius: 5px;
+  top: 250px;
+  left: 1030px;
+  text-align: center;
+}
+
+.texto_sin_fondo {
+  position: relative;
+  width: 300px;
+  height: 0;
+  left: 1100px;
+  top: 280px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+
+}
+
+.comederos {
+  position: absolute;
+  width: 150px;
+  height: 60px;
+  left: 1150px;
+  top: 490px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #F0A83E;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.productos_destacados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.productos_destacados img {
+  width: 100px;
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+.titulo1 {
+
+  font-style: bold;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3C2313;
+
+}
+
+.titulo2 {
+  font-style: bold;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #3C2313;
+  display: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.links li {
+  margin-top: 10px;
+  color: #666666;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 18px;
+}
+
+.articulos_venta {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+
+}
+
+.articulos_venta img {
+  width: 330px;
+  height: auto;
+}
+
+.articulos_venta div {
+  background-color: #FBFAF6;
+}
+
+.nombre {
+  text-align: center;
+}
+
+.precio {
+  text-align: center;
+  color: #F0A83E;
+  margin-bottom: 20px;
+}
+
+/*Formulario*/
+
+#contactanos form {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.caracteristicas_titulo {
+  color: #3C2313;
+  font-size: 22px;
+
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+#contactanos input[type="text"],
+#contactanos input[type="email"],
+#contactanos input[type="tel"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 7px;
+  background-color: #3C2313;
+  color: #FFFFFF;
+  border-radius: 17px;
+}
+
+
+#contactanos input[type="reset"] {
+  width: 120px;
+  padding: 10px;
+  margin-right: 5px;
+  background-color: #8A8787;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 1100px;
+  margin-top: 30px;
+}
+
+#contactanos input[type="submit"] {
+  width: 120px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #F0A83E;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 1100px;
+}
+
+#suscribete {
+  background-color: #F0A83E;
+  padding: 15px;
+}
+
+.color {
+  color: #ffffff;
+}
+
+/*la parte de suscribción del main*/
+
+#suscribete {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#suscribcion {
+  margin: 0 5px;
+}
+
+.contenedor1 {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+}
+
+#suscribcion input[type="email"] {
+  width: 300px;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+#suscribcion input[type="submit"] {
+  width: 120px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: #3C2313;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 1100px;
+}
+
+/*Estilos del Footer*/
+
+
+
+#caja_footer1 {
+  background-color: #3C2313;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.caja_localidad,
+.caja_telefono,
+.caja_correo_electronico {
+  display: flex;
+  align-items: center;
+
+}
+
+
+.caja_localidad img,
+.caja_telefono img,
+.caja_correo_electronico img {
+  margin-top: 20px;
+  margin-left: 50px;
+
+
+}
+
+.texto_localidad,
+.texto_telefono,
+.texto_correo {
+  margin-left: 25px;
+}
+
+.texto_localidad h2,
+.texto_telefono h2,
+.texto_correo h2 {
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+
+}
+
+.texto_localidad p,
+.texto_telefono p,
+.texto_correo p {
+
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.telefono {
+  display: flex;
+  flex-direction: row;
+}
+
+.lado_derecho {
+  background-color: #3C2313;
+  margin-left: auto;
+  position: relative;
+  top: 40px;
+  right: 50px;
+
+}
+
+
+.logo-bajo p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #F0A83E;
+
+}
+
+.logo-bajo img {
+  width: 18px;
+
+}
+
+.logo-first1 {
+  color: #FFFFFF;
+
+}
+
+#caja_footer2 {
+  display: none;
+}
+
+.final {
+  background-color: #222222;
+}
+
+.final p {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+}
+
+
+
+
+/*Estilos para pantallas de Tablet*/
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .header-container-top {
+    font-weight: 200;
+    padding: 8px 50px;
+
+  }
+
+  .header-lista {
+    gap: 17px;
+  }
+
+  .header-container-bottom {
+    padding: 20px 20px;
+  }
+
+  .logo-base {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+  }
+
+  .logo-base img {
+    width: 15px;
+  }
+
+  .logo-first {
+    color: #3c2313;
+  }
+
+  .nav-links {
+    font-weight: 300;
+    font-size: 15px;
+    gap: 10px;
+
+  }
+
+  /*Estilos para el Main*/
+
+  .silde {
+    height: 350px;
+  }
+
+  .texto_fondo {
+    font-size: 18px;
+    padding: 2px;
+    width: 35%;
+    top: 125px;
+    left: 470px;
+  }
+
+  .texto_sin_fondo {
+    width: 300px;
+    left: 510px;
+    top: 140px;
+    font-size: 16px;
+
+  }
+
+  .comederos {
+    width: 110px;
+    left: 540px;
+    top: 330px;
+    font-size: 12px;
+  }
+
+
+  .productos_destacados img {
+    width: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+  .titulo1 {
+    font-size: 27px;
+    line-height: 40px;
+
+  }
+
+  .links li {
+    margin-top: 7px;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 2px;
+
+  }
+
+  .articulos_venta {
+    margin-top: 35px;
+    gap: 13px;
+  }
+
+  .articulos_venta img {
+    width: 230px;
+  }
+
+  .nombre {
+    font-size: 14px;
+  }
+
+  .precio {
+    margin-bottom: 13px;
+    font-size: 14px;
+  }
+
+  /*Formulario*/
+
+  #contactanos form {
+    margin-top: 20px;
+  }
+
+  .caracteristicas_titulo {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+
+  #contactanos input[type="text"],
+  #contactanos input[type="email"],
+  #contactanos input[type="tel"] {
+    width: 330px;
+    margin-bottom: 5px;
+  }
+
+
+  #contactanos input[type="reset"] {
+    width: 110px;
+    margin-top: 25px;
+  }
+
+  #contactanos input[type="submit"] {
+    width: 110px;
+  }
+
+  #suscribete {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .contenedor1 {
+    gap: 7px;
+  }
+
+  .contenedor1 img {
+    width: 30px;
+  }
+
+  #suscribcion input[type="email"] {
+    width: 200px;
+    padding: 10px;
+  }
+
+  #suscribcion input[type="submit"] {
+    width: 80px;
+    font-size: 10px;
+    padding: 7px;
+  }
+
+  #caja_footer1 {
+    padding: 5px;
+
+  }
+
+
+  .caja_localidad img,
+  .caja_telefono img,
+  .caja_correo_electronico img {
+    margin-top: 15px;
+    margin-left: 30px;
+
+  }
+
+  .texto_localidad h2,
+  .texto_telefono h2,
+  .texto_correo h2 {
+    font-size: 15px;
+  }
+
+  .texto_localidad p,
+  .texto_telefono p,
+  .texto_correo p {
+    font-size: 10px;
+  }
+
+  .logo-bajo {
+    font-size: 14px;
+  }
+
+}
+
+/* Estilos para pantallas de Celular*/
+
+@media only screen and (max-width: 480px) {
+  .header-container-top {
+    display: none;
+  }
+
+  .header-container-bottom {
+    padding: 15px 20px;
+  }
+
+  .logo-base {
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .logo-base img {
+    width: 13px;
+  }
+
+  .nav-links {
+    font-weight: 200;
+    font-size: 8px;
+    gap: 3px;
+
+  }
+
+  /*Estilos para el Main*/
+
+  .silde {
+    height: 450px;
+    background-image: url("/img/Plato_principal_celular.png");
+    background-position: right;
+  }
+
+  .texto_fondo {
+    font-size: 25px;
+    padding: 10px;
+    width: 85%;
+    top: 155px;
+    left: 40px;
+  }
+
+  .texto_sin_fondo {
+    width: 300px;
+    left: 140px;
+    top: 160px;
+    font-size: 16px;
+    text-align: right;
+
+  }
+
+  .comederos {
+    width: 140px;
+    left: 280px;
+    top: 300px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+  .productos_destacados img {
+    width: 70px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+
+  .titulo1 {
+    display: none;
+  }
+
+  .titulo2 {
+    display: block;
+    text-align: center;
+
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+
+  .links li {
+    margin-top: 7px;
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 2px;
+
+
+  }
+
+  .articulos_venta {
+    margin-top: 35px;
+    gap: 13px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articulos_venta img {
+    gap: 15px;
+  }
+
+
+  /*Formulario*/
+
+  #contactanos form {
+    margin-top: 20px;
+  }
+
+  #contactanos input[type="reset"] {
+    width: 190px;
+    padding: 13px;
+  }
+
+  #contactanos input[type="submit"] {
+    width: 190px;
+    padding: 13px;
+  }
+
+  #suscribete {
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+
+  .contenedor1 {
+    gap: 7px;
+  }
+
+  .contenedor1 img {
+    padding: 7px;
+    width: 55px;
+  }
+
+  .color {
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  #suscribcion input[type="email"] {
+    width: 200px;
+    padding: 10px;
+  }
+
+  #suscribcion input[type="submit"] {
+    width: 80px;
+    font-size: 10px;
+    padding: 10px;
+
+  }
+
+  #caja_footer2 {
+    font-display: block;
+    background-color: #3C2313;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+
+  #caja_footer1 {
+    display: none;
+  }
+
+
+  .caja_localidad1,
+  .caja_telefono1,
+  .caja_correo_electronico1 {
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  .caja_localidad1 img,
+  .caja_telefono1 img,
+  .caja_correo_electronico1 img {
+    margin-top: 20px;
+    margin-left: 50px;
+   
+
+  }
+
+  .texto_localidad1,
+  .texto_telefono1,
+  .texto_correo1 {
+    margin-left: 25px;
+  }
+
+  .texto_localidad1 h2,
+  .texto_telefono1 h2,
+  .texto_correo1 h2 {
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .texto_localidad1 p,
+  .texto_telefono1 p,
+  .texto_correo1 p {
+
+    color: #ffffff;
+    font-size: 10px;
+  }
+
+
+  .lado_centro {
+    padding: 0 80px;
+    background-color: #3C2313;
+    padding-top: 15px;
+    margin-left: 50px;
+  }
+
+
+  .logo-bajo1 p {
+    font-size: 10px;
+    font-weight: 700;
+    color: #F0A83E;
+  }
+
+  .logo-bajo1 img {
+    width: 13px;
+
+  }
+
+  .logo-first2 {
+    color: #FFFFFF;
+
+  }
+
+  .final{
+    font-size: 10px;
+  }
+
+}
