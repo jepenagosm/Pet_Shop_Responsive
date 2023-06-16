@@ -619,11 +619,11 @@
 
   /*Estilos para el Main*/
 
-  .silde {
+  /*.silde {
     height: 450px;
-    background-image: url("../img/Plato_principal_celular.png");
+    background-image: url("./img/Plato_principal_celular.png");
     background-position: right;
-  }
+  }*/
 
   .texto_fondo {
     font-size: 25px;
